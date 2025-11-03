@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Hogwarts Evleri</title>
+</head>
+<body style="border: 1px solid rgb(182, 182, 108)"></body>
+<body>
+
+    <h1>Hogwarts Evleri</h1>
+
+    <table border="1" width="60%">
+        <tr>
+            <th>Amblem</th>
+            <th>Ev Adı</th>
+            <th>Özellik</th>
+        </tr>
+        <tr>
+            <td><img src="Griffindor.jpeg" width="90"></td>
+            <td>Gryffindor</td>
+            <td>Cesaret, Liderlik</td>
+        </tr>
+        <tr>
+            <td><img src="SLYTHERİN.jpeg" width="90"></td>
+            <td>Slytherin</td>
+            <td>Hırs, Zeka</td>
+        </tr>
+        <tr>
+            <td><img src="RAVENCLAW.jpeg" width="90"></td>
+            <td>Ravenclaw</td>
+            <td>Bilgelik, Yaratıcılık</td>
+        </tr>
+        <tr>
+            <td><img src="HUFFLEPUFF.jpeg" width="90"></td>
+            <td>Hufflepuff</td>
+            <td>Sadakat, Çalışkanlık</td>
+        </tr>
+    </table>
+
+    <tr>
+
+    <h2>Hogwarts Katılım Formu</h2>
+
+    <form>
+        Adınız: <input type="text" name="ad"><br><br>
+
+        Soyadınız: <input type="text" name="soyad"><br><br>
+
+        En sevdiğiniz karakter:
+        <select name="karakter">
+            <option>Harry Potter</option>
+            <option>Hermione Granger</option>
+            <option>Ron Weasley</option>
+            <option>Severus Snape</option>
+            <option>Albus Dumbledore</option>
+            <option>Rubeus Hagrid</option>
+            <option>Sirius Black</option>
+            <option>Dobby</option>
+            <option>Draco Malfoy</option>
+            <option>Lord Voldemort</option>
+            <option>Minerva McGonagall</option>
+            <option>Ginny Weasley</option>
+
+        </select><br><br>
+
+        Gitmek istediğiniz ev:
+        <select name="ev">
+            <option>Gryffindor</option>
+            <option>Hufflepuff</option>
+            <option>Ravenclaw</option>
+            <option>Slytherin</option>
+        </select><br><br>
+
+        Yorumunuz:<br>
+        <textarea name="yorum" rows="5" cols="40"></textarea><br><br>
+
+        Öğrenci belgenizi yükleyin: 
+        <input type="file" name="belge"><br><br>
+
+        Siz de Hogwarts’a katılmak ister misiniz?<br>
+        <input type="radio" name="katilim" value="Evet"> Evet<br>
+        <input type="radio" name="katilim" value="Hayır"> Hayır<br><br>
+
+        <input type="submit" value="Gönder">
+        <input type="reset" value="Temizle">
+    </form>
+
+</body>
+</html>
